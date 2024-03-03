@@ -7,7 +7,6 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function Login() {
-  const { user, login, loging } = useAuth();
   const router = useRouter();
 
   const handleLoging = async (e: any) => {
@@ -71,6 +70,7 @@ export default function Login() {
                 <div>
                   <button
                     type="submit"
+                    onClick={handleLoging}
                     className="inline-flex items-center border-green-900 justify-center w-full px-4 py-4 text-base font-semibold text-green-900 transition-all duration-200 border  rounded-full  bg-none focus:outline-none hover:opacity-80 focus:opacity-80"
                   >
                     Log in
