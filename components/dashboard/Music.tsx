@@ -50,7 +50,9 @@ export default function Music() {
           />
           <div className="absolute p-4 inset-0 flex flex-col justify-end bg-gradient-to-b from-transparent to-gray-900 backdrop backdrop-blur-5 text-white">
             <h3 className="font-bold font-body4">Yoga Meditation Audio</h3>
-            <span className="opacity-70 font-body4">Guided Relaxation</span>
+            <span className="opacity-70 text-gray-400 font-body4">
+              Guided Relaxation
+            </span>
           </div>
         </div>
         <div>
