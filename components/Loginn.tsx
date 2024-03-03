@@ -31,7 +31,7 @@ export default function Login() {
         <div className="flex font-body4 items-center justify-center px-4 py-10  bg-white sm:px-6 lg:px-8 sm:py-16 lg:py-24">
           <div className="xl:w-full xl:max-w-sm 2xl:max-w-md xl:mx-auto">
             <h2 className="text-3xl font-body font-clash-display-600 font- leading-tight text-green-700 sm:text-4xl">
-              Welcome{" "}
+              Welcome back
             </h2>
 
             <form method="POST" className="mt-8">
@@ -47,7 +47,7 @@ export default function Login() {
                       name=""
                       required
                       placeholder="Enter email to get started"
-                      className="block w-full py-4 pl-4 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-full bg-white focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                      className="block w-full py-4 pl-4 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-full bg-white focus:outline-none focus:border-green-600 focus:bg-white caret-green-600"
                     />
                   </div>
                 </div>
@@ -64,7 +64,7 @@ export default function Login() {
                       type="password"
                       name=""
                       placeholder="Enter your password"
-                      className="block w-full py-4 pl-4 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-full bg-white focus:outline-none focus:border-blue-600 focus:bg-white caret-blue-600"
+                      className="block w-full py-4 pl-4 pr-4 text-black placeholder-gray-500 transition-all duration-200 border border-gray-200 rounded-full bg-white focus:outline-none focus:border-green-600 focus:bg-white caret-green-600"
                     />
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function Login() {
                 <div>
                   <button
                     type="submit"
-                    className="inline-flex items-center border-green-900 justify-center w-full px-4 py-4 text-base font-semibold text-green-900 transition-all duration-200 border border-transparent rounded-full  bg-none focus:outline-none hover:opacity-80 focus:opacity-80"
+                    className="inline-flex items-center border-green-900 justify-center w-full px-4 py-4 text-base font-semibold text-green-900 transition-all duration-200 border  rounded-full  bg-none focus:outline-none hover:opacity-80 focus:opacity-80"
                   >
                     Log in
                   </button>

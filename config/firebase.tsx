@@ -6,13 +6,12 @@ import { getStorage } from "firebase/storage";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBZtX6goycDuTXatuFeqJ13MGUP34r600M",
-  authDomain: "srm1-8160c.firebaseapp.com",
-  databaseURL: "https://srm1-8160c-default-rtdb.firebaseio.com",
-  projectId: "srm1-8160c",
-  storageBucket: "srm1-8160c.appspot.com",
-  messagingSenderId: "193086720098",
-  appId: "1:193086720098:web:cc2c604c142da00eb0a93b",
+  apiKey: "AIzaSyCBv0jQ2oXWh3l_ycLzUonhT0sCFNU2ZsQ",
+  authDomain: "yogapath-689fc.firebaseapp.com",
+  projectId: "yogapath-689fc",
+  storageBucket: "yogapath-689fc.appspot.com",
+  messagingSenderId: "890276953873",
+  appId: "1:890276953873:web:d8396cc7d76d9c3ab616b0",
 };
 
 export const app = initializeApp(firebaseConfig);
