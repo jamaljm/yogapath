@@ -29,7 +29,7 @@ export default function Navbar() {
           <nav className="relative flex items-center justify-between h-16 lg:h-16">
             <div className=" ">
               <div className="flex-shrink-0">
-                <p className="font-body4 text-2xl ">Hi, {user?.displayName}</p>
+                <p className="font-body4 text-2xl ">Hi, Jamal</p>
               </div>
             </div>
             <div className="hidden  lg:flex font-body4 lg:items-center gap-7">

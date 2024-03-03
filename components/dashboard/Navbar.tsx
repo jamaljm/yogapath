@@ -73,7 +73,7 @@ export default function Navbar() {
                 className="flex items-center justify-center w-10 h-10 text-white rounded-full"
               >
                 <img
-                  src={user?.photoURL}
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhlDj1DDowxT40oxa3HGlFwi4YSE1qQRJKZl-n3wtf6w&s"
                   className="w-8 opacity-90 rounded-full"
                 />{" "}
               </div>
