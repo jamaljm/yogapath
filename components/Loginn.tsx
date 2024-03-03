@@ -11,7 +11,6 @@ export default function Login() {
   const router = useRouter();
 
   const handleLoging = async (e: any) => {
-    await loging();
     router.push("/home");
   };
   return (
