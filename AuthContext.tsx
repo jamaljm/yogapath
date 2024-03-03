@@ -3,6 +3,8 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import {
   onAuthStateChanged,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
   signInWithPopup,
   signOut,
   GoogleAuthProvider,
@@ -22,6 +24,27 @@ export const AuthContextProvider = ({
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user);
+      } else {
+        setUser(null);
+      }
+      setLoading(false);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const signup = (email: string, password: string) => {
+    return createUserWithEmailAndPassword(auth, email, password);
+  };
+
+  const login = (email: string, password: string) => {
+    return signInWithEmailAndPassword(auth, email, password);
+  };
+
   const loging = () => {
     const provider = new GoogleAuthProvider();
     return signInWithPopup(auth, provider);
@@ -33,7 +56,7 @@ export const AuthContextProvider = ({
   };
 
   return (
-    <AuthContext.Provider value={{ logout, loging }}>
+    <AuthContext.Provider value={{ user, login, signup, logout, loging }}>
       {loading ? null : children}
     </AuthContext.Provider>
   );
