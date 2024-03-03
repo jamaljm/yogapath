@@ -138,7 +138,6 @@ export default function Music() {
               </svg>
             </button>
           </li>
-        
         </ul>
       </div>
     </div>
