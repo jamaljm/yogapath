@@ -104,7 +104,7 @@ export default function Card() {
           <div className="relative inline-flex">
             <img
               className="object-cover mx-auto rounded-full h-20 w-20 mt-5 ring-2 ring-white"
-              src="https://www.uscreen.tv/wp-content/uploads/2020/02/make-money-online-yoga-instructor.jpg"
+              src="https://www.yogabaron.com/wp-content/uploads/2021/05/become-a-yoga-instructor-for-free-May272021-1-min.jpg"
               alt="Yoga Instructor"
             />
           </div>

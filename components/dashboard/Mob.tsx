@@ -15,7 +15,10 @@ const YogaWebsite = () => {
         {
           model: "gpt-4",
           messages: [
-            { role: "system", content: "You are a helpful assistant." },
+            {
+              role: "system",
+              content: "You are a helpful yoga assistant.",
+            },
             { role: "user", content: searchInput },
           ],
         },
