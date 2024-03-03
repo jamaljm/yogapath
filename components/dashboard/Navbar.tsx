@@ -70,7 +70,7 @@ export default function Navbar() {
             <div className="hidden lg:flex lg:items-center ">
               <div
                 title=""
-                className="flex items-center justify-center w-10 h-10 text-white bg-black rounded-full"
+                className="flex items-center justify-center w-10 h-10 text-white rounded-full"
               >
                 <img
                   src={user?.photoURL}
